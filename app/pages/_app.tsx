@@ -4,7 +4,6 @@ import "bootstrap/dist/css/bootstrap.css"
 import "bootstrap-icons/font/bootstrap-icons.json"
 
 import { useEffect } from "react"
-import Layout from "../components/layout";
 import SolWalletProvider from "../components/solWalletProvider"
 
 function MyApp({ Component, pageProps }: AppProps) {
