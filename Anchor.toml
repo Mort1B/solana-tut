@@ -1,13 +1,13 @@
 [features]
 seeds = false
-[programs.localnet]
+[programs.devnet]
 sol_t = "DZyZ4HaJQ4kHXoPVFJARnC1gV7NzbujtPJRBu9Hcei3d"
 
 [registry]
 url = "https://anchor.projectserum.com"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "/home/mort1b/.config/solana/id.json"
 
 [scripts]

@@ -90,4 +90,18 @@ describe("sol-t", () => {
 
         console.log(tweetAccounts);
     })
+
+    it("can filter tweets by author", async () => {
+        const authorPublicKey = anchorProvider.wallet.publicKey;
+        const tweetAccount = await program.account.tweet.all([
+            {
+                memcmp: {
+                    offset: 8,
+                    bytes: authorPublicKey.toBase58()
+                }
+            }
+        ])
+
+        // assert.equal(tweetAccount.length, 2)
+    })
 });

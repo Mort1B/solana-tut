@@ -1,0 +1,33 @@
+{
+  "name": "sol-t",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@solana-mobile/wallet-adapter-mobile": "^0.9.1",
+    "@solana/wallet-adapter-base": "^0.9.16",
+    "@solana/wallet-adapter-react": "^0.15.18",
+    "@solana/wallet-adapter-react-ui": "^0.9.16",
+    "@solana/wallet-adapter-wallets": "^0.18.9",
+    "@solana/web3.js": "^1.61.0",
+    "bootstrap": "^5.2.1",
+    "bootstrap-icons": "^1.9.1",
+    "next": "12.3.0",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "stable": "^0.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.17",
+    "@types/react": "18.0.19",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.0",
+    "typescript": "4.8.3"
+  }
+}
